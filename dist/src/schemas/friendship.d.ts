@@ -21,19 +21,18 @@ export declare enum FriendshipSceneType {
     Shaking = 29,
     QRCode = 30
 }
+export interface FriendshipSource {
+    sourceContactId?: string;
+    sourceName?: string;
+    shareCardContactId?: string;
+    shareCardName?: string;
+}
 /** @hidden */
 export interface FriendshipPayloadBase {
     id: string;
     contactId: string;
     hello?: string;
     timestamp: number;
-}
-/** @hidden */
-export interface FriendshipSource {
-    sourceContactId?: string;
-    sourceName?: string;
-    shareCardContactId?: string;
-    shareCardName?: string;
 }
 /** @hidden */
 export declare type FriendshipPayloadConfirm = FriendshipPayloadBase & {
