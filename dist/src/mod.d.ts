@@ -1,6 +1,6 @@
 export { ContactGender, ContactType, ContactPayload, ContactQueryFilter, } from './schemas/contact';
 export { ScanStatus, EventDirtyPayload, EventDongPayload, EventErrorPayload, EventFriendshipPayload, EventHeartbeatPayload, EventLoginPayload, EventLogoutPayload, EventMessagePayload, EventReadyPayload, EventResetPayload, EventRoomInvitePayload, EventRoomJoinPayload, EventRoomLeavePayload, EventRoomTopicPayload, EventScanPayload, } from './schemas/event';
-export { FriendshipPayload, FriendshipPayloadConfirm, FriendshipPayloadReceive, FriendshipPayloadVerify, FriendshipSearchQueryFilter, FriendshipType, FriendshipSceneType, } from './schemas/friendship';
+export { FriendshipPayload, FriendshipPayloadConfirm, FriendshipPayloadReceive, FriendshipPayloadVerify, FriendshipSearchQueryFilter, FriendshipType, FriendshipSceneType, FriendshipSource, } from './schemas/friendship';
 export { ImageType, } from './schemas/image';
 export { MessagePayload, MessageType, MessageQueryFilter, } from './schemas/message';
 export { RoomPayload, RoomQueryFilter, RoomMemberPayload, RoomMemberQueryFilter, } from './schemas/room';
